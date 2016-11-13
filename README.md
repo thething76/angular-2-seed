@@ -27,10 +27,22 @@ Pakete installieren via
 ## Jobs
 
 - Server / Compiler 
+
 > npm run start
+
 - Tests
+
 > npm run test
+
 - Build
+
 > npm run build
+
 - Docs
+
 > npm run docs
+
+## Aktualisierung
+
+git remote add upstream https://github.com/thething76/angular-2-seed.git
+git pull upstream master
