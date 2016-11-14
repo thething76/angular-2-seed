@@ -36,7 +36,7 @@ module.exports = webpackMerge(commonConfig, {
             }
         }),
         new CopyWebpackPlugin([
-            { from: helpers.root('assets'), to: helpers.root('dist') }
+            { from: helpers.root('assets'), to: helpers.root('dist/assets') }
         ])
     ]
 });
