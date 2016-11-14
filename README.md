@@ -23,6 +23,7 @@ Pakete installieren via
 - Font Awesome
 - Bootstrap 4 
 - Angular Material
+- ftploy
 
 ## Jobs
 
@@ -46,3 +47,8 @@ Pakete installieren via
 
 git remote add upstream https://github.com/thething76/angular-2-seed.git
 git pull upstream master
+
+## FTP Deployment
+
+Läuft via ftploy: https://www.npmjs.com/package/ftploy. 
+Skripte müssen in package.json entsprechend angepasst werden.
