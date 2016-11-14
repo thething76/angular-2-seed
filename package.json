@@ -2,12 +2,12 @@
   "name": "angular2-seed",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --port 8080",
+    "start": "webpack-dev-server --content-base dist --inline --progress --port 8080",
     "test": "karma start",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
     "docs": "node_modules/.bin/compodoc -p tsconfig.json -d ./documents/docs/src",
     "ftp-dev": "node node_modules/.bin/ftploy --username=user --password=pass --host=host --port=21 --localRoot=./dist --remoteRoot=/dev.domain.de exclude=./node_modules",
-    "ftp-live" : "node node_modules/.bin/ftploy --username=user --passwordpass --host=host --port=21 --localRoot=./dist --remoteRoot=/domain.de exclude=./node_modules"
+    "ftp-live": "node node_modules/.bin/ftploy --username=user --passwordpass --host=host --port=21 --localRoot=./dist --remoteRoot=/domain.de exclude=./node_modules"
   },
   "licenses": [
     {
@@ -42,6 +42,7 @@
     "awesome-typescript-loader": "^2.2.4",
     "compass-mixins": "^0.12.10",
     "compodoc": "0.0.11",
+    "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.23.1",
     "exports-loader": "^0.6.3",
     "extract-text-webpack-plugin": "^1.0.1",

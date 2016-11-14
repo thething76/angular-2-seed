@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 // Vorteil, falls Styles komponentenbasiert (Stichwort: Web Components) isoliert werden sollen
 import {ViewEncapsulation} from '@angular/core';
 
-import '../../public/scss/styles.scss';
+import '../scss/styles.scss';
 
 @Component({
     selector: 'tour-of-heroes-app',
